@@ -9,7 +9,16 @@ Just some place to stash code I'm using the play with [Telehash-js](https://gith
 
 ## To run
 
-Before you do anything else,
+Before you do anything else, make sure you are running the right version of Node.
+
+I use NVM to switch bewteen Node versions, and if you do too, then I recommend installing [AVN]() too.
+
+```sh
+npm install -g avn avn-nvm
+avn setup
+```
+
+Then:
 
 ```sh
 npm install
