@@ -2,5 +2,7 @@
 
 "use strict";
 
+process.env.DEBUG = 'client';
+
 let Client = require('../lib/client')
 new Client().start();

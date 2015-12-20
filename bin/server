@@ -2,5 +2,7 @@
 
 "use strict";
 
+process.env.DEBUG = 'server';
+
 let Server = require('../lib/server')
 new Server().start();
