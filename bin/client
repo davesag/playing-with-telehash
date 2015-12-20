@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+"use strict";
+
+let Client = require('../lib/client')
+new Client().start();

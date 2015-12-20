@@ -1,0 +1,47 @@
+{
+  "name": "playing-with-telehash",
+  "version": "0.0.1",
+  "description": "Experimenting with Telehash as a means for connecting swarms of clients to servers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "NODE_ENV=test gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davesag/playing-with-telehash.git"
+  },
+  "keywords": [
+    "telehash",
+    "mesh",
+    "networks",
+    "service",
+    "discovery"
+  ],
+  "author": "Dave Sag <davesag@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davesag/playing-with-telehash/issues"
+  },
+  "homepage": "https://github.com/davesag/playing-with-telehash#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "debug": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-help": "^1.6.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "install": "^0.4.1",
+    "mocha": "^2.3.4",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2"
+  },
+  "engines": {
+    "node": ">=4.1.2 <5"
+  },
+  "dependencies": {
+    "telehash": "^0.4.7"
+  }
+}
